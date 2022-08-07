@@ -4,12 +4,13 @@
 [![GitHub Repo stars][github-r-s]][star]  
 
 <!--Miki-Stickie LOGO-->
-[![T-Calendar][LOGO]][Github]
+[![T-Calendar-LOGO][LOGO]][Github]
 
 <!--介绍部分-->
 ## 咔咔~，是小跨历哦 😋
 各位小伙伴知不知道跨性别相关Bot呢？
 > **一个社群自发的互助/科普/分享平台**  
+[![Bot-LOGO][BOT-LOGO]][Github]
 
 如果知道的话，那么你肯定见过小跨历  
 不知道的小伙伴也没关系，咱来介绍一下吧 www
@@ -21,6 +22,7 @@
 
 <!--跳转地址（按顺序）-->
 [LOGO]: ./data/LOGO.svg
+[BOT-LOGO]: ./data/Bot-Logo.svg
 [My-Projects]: https://github.com/MikiLin-wiviw/T-Calendar
 [watching]: https://github.com/MikiLin-wiviw/T-Calendar/watchers
 [star]: https://github.com/MikiLin-wiviw/T-Calendar/stargazers
