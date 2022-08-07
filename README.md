@@ -1,2 +1,4 @@
-# Some-Calendar
-哇，没想到这里被发现了
+# 小跨历 - 跨性别相关的多元化小日历
+
+<!--Miki-Stickie LOGO-->
+[![Miki-Stickie][miki-stickie]][Github]
