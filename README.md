@@ -10,7 +10,8 @@
 ## 咔咔~，是小跨历哦 😋
 各位小伙伴知不知道跨性别相关Bot呢？
 > **一个社群自发的互助/科普/分享平台**  
-[![Bot-LOGO][BOT-LOGO]][Github]
+<img src="./data/Bot-Logo.svg" alt="drawing" width="200"/>
+[![Bot-LOGO][BOT-LOGO1]][Github]
 
 如果知道的话，那么你肯定见过小跨历  
 不知道的小伙伴也没关系，咱来介绍一下吧 www
