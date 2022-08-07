@@ -4,4 +4,5 @@
 [![T-Calendar][LOGO]][Github]
 
 <!--跳转地址（按顺序）-->
-[LOGO]: ./data/miki-stickie-logo.svg
+[LOGO]: ./data/LOGO.svg
+[Github]: https://github.com/MikiLin-wiviw/T-Calendar
