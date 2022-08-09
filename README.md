@@ -17,8 +17,7 @@
 不知道的小伙伴也没关系，咱来介绍一下吧 www
 
 <!--跳转地址（按顺序）-->
-[LOGO]: ./data/LOGO.svg
-[BOT-LOGO]: ./data/Bot-Logo.svg
+[LOGO]: ./data/Some-Logo/LOGO.svg
 [My-Projects]: https://github.com/MikiLin-wiviw/T-Calendar
 [watching]: https://github.com/MikiLin-wiviw/T-Calendar/watchers
 [star]: https://github.com/MikiLin-wiviw/T-Calendar/stargazers
