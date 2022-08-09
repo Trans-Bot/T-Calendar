@@ -11,7 +11,7 @@
 各位小伙伴知不知道跨性别相关Bot呢？
 > **一个社群自发的互助/科普/分享平台**  
 
-[<img src="./data/BOT-LOGO.svg" alt="跨性别相关Bot" width="400"/>][Github]
+[<img src="" alt="跨性别相关Bot" width="400"/>][Github]
 
 如果知道的话，那么你肯定见过小跨历  
 不知道的小伙伴也没关系，咱来介绍一下吧 www
