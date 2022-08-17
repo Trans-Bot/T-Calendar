@@ -94,7 +94,7 @@ mkfs -t ext3 miki5
 
 <!--跳转地址（按顺序）-->
 [LOGO]: ./data/Some-Logo/LOGO.svg
-[LOGO-BM]: ./data/Some-Logo/BOT and Miki_Lin.svg
+[LOGO-BM]: ./data/Some-Logo/bot-and-miki.svg
 [My-Projects]: https://github.com/MikiLin-wiviw/T-Calendar
 [watching]: https://github.com/MikiLin-wiviw/T-Calendar/watchers
 [star]: https://github.com/MikiLin-wiviw/T-Calendar/stargazers
