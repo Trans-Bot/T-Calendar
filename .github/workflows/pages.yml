@@ -2,12 +2,32 @@
 name: Build website
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    paths-ignore:
+      - "images/**"
+      - "LICENSE"
+      - "README.md"
+    branches:
+      - master
+      - exampleSite
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+      inputs:
+      hugoVersion:
+        description: "Hugo Version"
+        required: false
+        default: "0.83.0"
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+# Default to bash
+defaults:
+  run:
+    shell: bash
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -15,30 +35,40 @@ permissions:
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
 jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: "0.83.0"
     steps:
+      - name: Check version
+        if: ${{ github.event.inputs.hugoVersion }}
+        run: export HUGO_VERSION="${{ github.event.inputs.hugoVersion }}"
+      - name: Install Hugo CLI
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v1
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
         with:
-          source: ./
-          destination: ./_site
+          ref: exampleSite
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v1
+      - name: Get Theme
+        run: git submodule update --init --recursive
+      - name: Update theme to Latest commit
+        run: git submodule update --remote --merge
+      - name: Build with Hugo
+        run: |
+          hugo \
+            --buildDrafts --gc --verbose \
+            --baseURL ${{ steps.pages.outputs.base_url }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-      - name: Hugo setup
-        uses: peaceiris/actions-hugo@v2.4.13
-
+        with:
+          path: ./public
   # Deployment job
   deploy:
     environment:
@@ -50,5 +80,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-      - name: Hugo Publish
-        uses: avinassh/hugo-publish@0.0.1
