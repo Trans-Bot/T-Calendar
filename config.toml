@@ -1,0 +1,8 @@
+baseURL = 'https://transcal.wiki/'
+title = 'Transgender Calendar.wiki'
+theme = "PaperMod"
+
+# Language Settings
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = true
+hasCJKLanguage = true
