@@ -3,8 +3,8 @@ baseURL = "https://MikiLin-wiviw.github.io"
 author = "MikiLin"
 copyright = "Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved."
 paginate = 3
-languageCode = "zn"
-DefaultContentLanguage = "zn"
+languageCode = "zh-cn"
+DefaultContentLanguage = "zh-cn"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
