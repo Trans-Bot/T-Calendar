@@ -3,6 +3,6 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = "PaperMod"
 [params]
-  description = "Tesla's Awesome Hugo Site"
+  description = "My New Hugo Site"
   author = "MikiLin"
   gitHubUser = "MikiLin-wiviw"
