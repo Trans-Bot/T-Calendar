@@ -1,0 +1,8 @@
+baseURL = 'https://MikiLin-wiviw.github.io'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "PaperMod"
+[params]
+  description = "Tesla's Awesome Hugo Site"
+  author = "MikiLin"
+  gitHubUser = "MikiLin-wiviw"
