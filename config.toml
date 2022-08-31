@@ -1,3 +1,4 @@
 baseURL = 'http://transcal.wiki/'
 languageCode = 'en-us'
 title = 'TransCal'
+theme = 'PaperMod'
