@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My New Hugo Site</title><link>http://example.org/</link><description>Recent content on My New Hugo Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>http://example.org/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/readme/</guid><description>小跨历 - 跨性别相关的多元化小日历 咔咔~，是小跨历哦 😋 各位小伙伴知不知道跨性别相关Bot呢？
+一个社群自发的互助/科普/分享平台
+就是下方那个大家说看起来像磁带的 Bot 📼
+注意：Bot 是真人运营的啦，不要听谣言发一些奇怪的指令 🤪
+mkfs -t ext3 miki5 小跨历以前的更新渠道是通过 Bot 的空间推送的，应该有小伙伴看到过
+但这期间停止推送了一段时间，所以新加上QQ的小伙伴可能并没有见过
+而现在，小跨历重新回归啦 🥳
+新的小跨历将由咱进行全局的制作，Bot 已经授权
+实际上，小跨历的 2.0 版本也是咱设计的版面，所以有的小伙伴可能看到了 Miki_Lin 的字样
+但是咱的知识还是有限，有些内容还需要 Bot 来进行审核
+小伙伴们也可以指出错误，咱会及时更正错误的，如果给你带来不便真的很对不起 wwww
+小跨历来到 4.0 啦，都有些啥呢 🤔 完全不一样的版面，全新的色彩搭配 其实咱的话，对于目前的风格还是很满意的 当然啦，如果有好的想法咱也会制作出样板提交上去，如果通过了将会投入使用 在布局和色彩上面有什么好的建议，可以到Github上找到本库，提交 issues 表达你的观点哦 话题开始多元化，节日百科、梗百科和更多！ 本次的小跨历以跨性别群体为重要的核心主题，这是小跨历为何成立的主要核心 在此基础上，咱会加入节日百科部分以及梗百科部分，不过推送的频率并不高，不用担心挤掉了核心主题的推送 节日百科将一年重新推送一次，而梗百科只会在所有的百科中出现一次哦 更多的可变细节等待小伙伴们去发现 咱在小跨历中加入了一些会随着时间而出现不同样式的元素，小伙伴们闲的话可以去找找 风格上的变化可能会在重大节日发生改变（主要是咱怕起床晚了没来得及更新） 但无论如何，能做一期节日限定，肯定会去实现的！ 配合 Github 库共同推送每日的小跨历 在以前推送的小跨历中，由于推送频率日更较快，所以有些小伙伴想查看往期内容得翻好久的空间 本次咱搭建了一个 Github 库，用于推送并保存每一期的小跨历 同时咱会每周将上周的小跨历统合成一个 Wiki 页面，小伙伴们可以在里面点击链接快速找到自己错过的小跨历 而仓库中，你也可以通过日期版本号找到对应日期的小跨历 还有更多的小细节等待你的发现，这里就不一一列举了
+希望各位小伙伴喜欢新的小跨历 🥰
+对啦，咱的 QQ 并不会推送每一期的小跨历，因为那个是咱的私人账号</description></item></channel></rss>
